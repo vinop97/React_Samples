@@ -1,0 +1,43 @@
+.FormParent {
+    display: flex;   
+    flex-direction: column;
+    border:1px solid lightgray; 
+    padding:1rem;
+    width:50%;
+    max-width:450px;
+    min-width:300px;
+    margin:4rem auto;
+    row-gap:1rem;
+    & >div {
+        display: flex;
+        justify-content: flex-end;
+    }
+    & > div input,
+    & > div  label {
+        flex-basis: 50%;
+
+    }
+    & > div input {
+        height:25px;
+        border-radius:8px;
+        border:1px solid rgb(32, 178, 170,0.5);     
+
+    }
+    & > div input.invalid {
+        border:1px solid red;
+    }
+    & .LoginBtnsec button {
+      height:25px;
+      border:0px;
+      color:white;
+      background:#587770 ;
+      border-radius:10px;    
+      -webkit-border-radius:10px ;
+      -moz-border-radius:10px ;
+      -ms-border-radius:10px;
+      -o-border-radius:10px;
+      padding:0px 10px;
+      cursor: pointer;
+
+} 
+}

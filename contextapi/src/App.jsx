@@ -9,7 +9,7 @@ function App() {
   return (
 		<>
 			<NavbarComp></NavbarComp>
-			<LoginformComp></LoginformComp>
+			<LoginformComp></LoginformComp>  
 		</>
 	);
 }
